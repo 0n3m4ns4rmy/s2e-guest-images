@@ -20,7 +20,7 @@
 
 ### Check that required variables are setup properly
 
-LINUX_VERSION:=6.15.8
+LINUX_VERSION:=6.12.41
 
 ifeq ("$(wildcard $(S2E_LINUX_KERNELS_ROOT)/linux-$(LINUX_VERSION)/config-i386)","")
 $(error $(S2E_LINUX_KERNELS_ROOT)/linux-$(LINUX_VERSION)/config-i386 does not exist. Make sure S2E_LINUX_KERNELS_ROOT is set properly)
